@@ -1,6 +1,5 @@
 urllib3
 pandas
-os
 requests
 streamlit
 openpyxl
