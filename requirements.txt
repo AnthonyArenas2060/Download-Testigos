@@ -1,5 +1,6 @@
 urllib3
 pandas
 requests
-streamlit
+streamlit==1.19.0
 openpyxl
+altair==4.2.2
