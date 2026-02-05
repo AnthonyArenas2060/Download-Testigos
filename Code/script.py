@@ -26,8 +26,9 @@ if uploaded_file:
             "User-Agent": "Mozilla/5.0"
         }
 
-        downloads_path = os.path.join(os.path.expanduser("~"), "Downloads")
+        downloads_path = "downloads"
         os.makedirs(downloads_path, exist_ok=True)
+
 
         progress = st.progress(0)
         status_text = st.empty()
